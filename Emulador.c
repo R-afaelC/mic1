@@ -55,6 +55,12 @@ void pular();
 
 void binario(void* valor, int tipo);
 
+//constantes para valores fixos
+
+#define TAMANHO_MICROINSTRUCAO 512
+#define ENDERECO_INICIAL_PROGRAMA 0x0401
+#define TAMANHO_CABECALHO 20
+
 
 
 // Laço Principal
